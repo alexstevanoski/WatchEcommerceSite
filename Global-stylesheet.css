@@ -3,7 +3,7 @@
 :root
 {
     --text: #071213;
-    --background: #f4fafb;
+    --background: #E5F8FF;
     --primary: #24626a;
     --secondary: #d5edf1;
     --accent: #40acba;
@@ -13,6 +13,7 @@
 body {
   font-family: 'Noto Sans';
   font-weight: 400;
+  background: var(--background) ;
 }
 
 h1, h2, h3, h4, h5 {
@@ -20,7 +21,7 @@ h1, h2, h3, h4, h5 {
   font-weight: 700;
 }
 
-html {font-size: 100%; background-color: var(--background);} /* 16px */
+html {font-size: 100%;} /* 16px */
 
 h1 {font-size: 4.210rem; /* 67.36px */}
 
