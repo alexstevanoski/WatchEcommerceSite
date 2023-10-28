@@ -5,10 +5,36 @@
         <title>Watch Shop</title>
         <link rel="stylesheet" href="Global-stylesheet.css"/>
         <link rel="stylesheet" href="Home-stylesheet.css"/>
+        <link rel="stylesheet" href="Menu.css"/>
     </head>
     <body>
+        <button class="burger" onclick="toggleMenu()"></button>
         <div class="landing" id="landing">
             <h1 class="landing-text" id="landing-welcomeback">Welcome back, </h1> <h1 class="landing-text" id="landing-name"> Alex!</h1>
         </div>
+        <div class="menu">
+            <div></div>
+            <div style="transition-delay: 0.1s"></div>
+            <div style="transition-delay: 0.2s"></div>
+            <div style="transition-delay: 0.3s"></div>
+            <div style="transition-delay: 0.4s"></div>
+            <ul>
+                <li style="animation-delay: 0.4s">
+                    <a href="#home">About</a>
+                </li>
+                <li style="animation-delay: 0.5s">
+                    <a href="#home">Services</a>
+                </li>
+                <li style="animation-delay: 0.6s">
+                    <a href="#home">Products</a>
+                </li>
+                <li style="animation-delay: 0.7s">
+                    <a href="#home">Contact</a>
+                </li>
+            </ul>
+        </div>
     </body>
+    <script type="text/javascript">
+        const toggleMenu = () => document.body.classList.toggle("open");
+    </script>
 </html>
