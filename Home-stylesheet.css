@@ -1,24 +1,9 @@
 .landing
 {
-    padding-left: 2%;
-}
-
-.landing-text
-{
-    display: inline-block;
-
-}
-#landing-h1
-{
-    text-align: left;
-    color: var(--text);
-}
-#landing-name
-{
-    text-align: left;
-    background-image: linear-gradient(to right, var(--accent), var(--primary));
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: max-content;
+    width: max-content;
 }
