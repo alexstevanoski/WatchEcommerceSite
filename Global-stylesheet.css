@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Noto Sans:700|Noto Sans:400');
-
 :root
 {
     --text: #071213;
@@ -9,13 +8,11 @@
     --accent: #40acba;
 
 }
-
 body {
   font-family: 'Noto Sans';
   font-weight: 400;
   background: var(--background) ;
 }
-
 h1, h2, h3, h4, h5 {
   font-family: 'Noto Sans';
   font-weight: 700;
